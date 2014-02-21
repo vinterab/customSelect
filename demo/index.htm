@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>customSelect 2.0.0</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="../dist/customSelect.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.ui-select').customSelect({
+				classNames: {
+					arrow: 'icon-arrow-down'
+				}
+			});
+		});
+	</script>
+
+	<style type="text/css">
+
+	body {
+		font-family: Arial, sans-serif;
+		line-height: 1.5;
+		font-size: 16px;
+	}
+
+	.custom-select {
+		display: inline-block;
+		width: 200px;
+		border: 1px solid #ccc;
+		cursor: pointer;
+	}
+
+	.custom-select ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.custom-select.open ul {
+		display: block;
+	}
+
+	.custom-select li {
+		border-top: 1px solid #ddd;
+		padding: 5px;
+	}
+
+	.custom-select li:hover {
+		background: #fafafa;
+	}
+
+	.custom-select img {
+		margin-right: .2em;
+	}
+
+	.selected {
+		padding: 5px;
+	}
+
+	.hidden {
+
+	}
+
+	</style>
+</head>
+<body>
+	<h1>customSelect</h1>
+	<select class="ui-select ui-img-select">
+		<option data-img="ico-flag-sv.png" value="/sv">Sverige</option>
+		<option data-img="ico-flag-us.png" value="/us">USA</option>
+		<option data-img="ico-flag-gb.png" selected="selected" value="/en">England</option>
+		<option data-img="ico-flag-dk.png" value="/dk">Danmark</option>
+	</select>
+</body>
+</html>

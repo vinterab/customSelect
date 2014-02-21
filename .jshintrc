@@ -1,0 +1,15 @@
+// config options http://www.jshint.com/docs/options/
+
+{
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "indent": 4,
+  "latedef": true,
+  "newcap": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "trailing": true,
+  "browser": true
+}

@@ -1,0 +1,31 @@
+{
+  "name": "customSelect",
+  "description": "Custom select plugin for jQuery",
+  "version": "2.0.0",
+  "homepage": "https://github.com/vinterab/customSelect/",
+  "author": {
+    "name": "Vinter AB",
+    "url": "http://www.vinterwebb.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vinterab/customSelect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinterab/customSelect/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vinterab/customSelect/blob/master/LICENSE.md"
+    }
+  ],
+  "keywords": ["jquery customSelect"],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}
