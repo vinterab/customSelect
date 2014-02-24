@@ -25,8 +25,6 @@
 
 			base.options = $.extend(true, {}, $.customSelect.defaultOptions, options);
 
-			window.console.log(base.options);
-
 			base.wrapper = $('<div />').addClass(base.options.classNames.wrapper);
 			selectedWrapper = $('<div />').addClass(base.options.classNames.selected).html('<span>' + base.getContent(selected) + '</span>');
 
