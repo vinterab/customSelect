@@ -43,6 +43,10 @@
 				if (base.options.hideSelected && i === selected.index()) {
 					li.hide();
 				}
+
+				if (i === selected.index() && base.options.classNames.selectedItem) {
+					li.addClass(base.options.classNames.selectedItem);
+				}
 			}
 
 			base.wrapper.append(ul);
@@ -189,7 +193,8 @@
 			selected: 'selected',
 			open: 'open',
 			hidden: 'hidden',
-			arrow: 'icon-arrow-down'
+			arrow: 'icon-arrow-down',
+			selectedItem: 'selected-item'
 		},
 		hideSelected: false,
 		hideText: false,
