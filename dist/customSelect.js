@@ -146,6 +146,11 @@
 				base.wrapper.find('li').show().eq(index).hide();
 			}
 
+			if (base.options.classNames.selectedItem) {
+				base.wrapper.find('li').removeClass(base.options.classNames.selectedItem);
+				base.wrapper.find('li').eq(index).addClass(base.options.classNames.selectedItem);
+			}
+
 			var selectedWrapper = base.wrapper.find('.' + base.options.classNames.selected);
 
 			selectedWrapper.html('<span>' + base.getContent(items.eq(index)) + '</span>');
