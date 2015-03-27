@@ -1,7 +1,7 @@
 {
   "name": "customSelect",
   "description": "Custom select plugin for jQuery",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "homepage": "https://github.com/vinterab/customSelect/",
   "author": {
     "name": "Vinter AB",
